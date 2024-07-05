@@ -1,7 +1,6 @@
 const styles = {
   paddingX: "sm:px-16 px-6",
-  fixedPadding:"px-6",
-  Nantes: "font-family: NantesFont;"
+  fixedPadding:"sm:px-6 px-2",
 };
 
 export { styles };

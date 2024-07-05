@@ -24,6 +24,7 @@ export default {
         "matrix-pattern": "url('/src/assets/matrix.png')",
         "rectangleBG": "url('/src/assets/Rectangle.png')",
         "sliderBG": "url('/src/assets/sliderBg.png')",
+        "navbarIcon": "url('/src/assets/logo.png')",
       }
     },
   },

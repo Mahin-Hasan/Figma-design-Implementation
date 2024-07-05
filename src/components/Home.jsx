@@ -5,9 +5,9 @@ import { IoArrowDownSharp } from "react-icons/io5";
 //adjusted bg color to hex #0019A3 | #001CB8
 const Home = () => {
   return (
-    <section>
+    <section className="pt-5">
       <div className="h-screen bg-matrix-pattern bg-auto bg-no-repeat bg-center relative">
-        <div className="absolute top-0 left-0 w-full h-full bg-[#001CB8] opacity-85">
+        <div className="absolute top-0 left-0 w-full h-full bg-[#001CB8] opacity-85 rounded-2xl">
           {/* Empty div for matrix bg overlay  */}
         </div>
         <div className="absolute top-0 left-0 w-full h-full bg-rectangleBG bg-auto bg-no-repeat bg-center">
@@ -27,12 +27,14 @@ const Home = () => {
               </div>
               <div className="">
                 <h1 className="font-Nantes text-4xl">60%</h1>
-                <p className="font-Messina tracking-wide">LTM avg. revenue growth rate</p>
+                <p className="font-Messina tracking-wide">
+                  LTM avg. revenue growth rate
+                </p>
               </div>
             </div>
-            <div>
+            <div className="-ms-20">
               <h1 className="text-[78px] text-white text-center font-Nantes">
-                THE WPPOOL INDEX
+                The WPPOOL Index
               </h1>
               <p className="font-Messina text-center text-white text-[21px] tracking-wider">
                 Monitor the performance of emerging, publicly traded, financial
@@ -49,6 +51,6 @@ const Home = () => {
       </div>
     </section>
   );
-};   
+};
 
 export default Home;

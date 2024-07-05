@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className="bg-primary">
-          <Navbar />
+        <Navbar />
         <div className={`${styles.fixedPadding}`}>
           <Home />
           <Dashboard />
