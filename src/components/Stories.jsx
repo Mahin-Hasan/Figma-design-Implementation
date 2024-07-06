@@ -1,44 +1,126 @@
 import SectionTitle from "./SectionTitle";
 import team1 from "../assets/team1.png";
 import team2 from "../assets/team2.png";
+import carrot from "../assets/carrot.png";
 
 const Stories = () => {
   return (
     <section>
       <SectionTitle title={"Stories & Ideas"} />
       <p className="font-Messina text-xl">The latest news and updates</p>
-      <div className="grid grid-cols-3 gap-6 mt-28">
+      <div className="grid grid-cols-3 gap-x-7 gap-y-24 mt-28">
         <div className="bg-white rounded-md">
           <div className="ps-6 py-5 space-y-1">
             <div className="-mt-[72px]">
               <img className="rounded-md" src={team1} alt="team 1 img" />
             </div>
-            <h5 className="text-sm text-primaryBlue">By: Sahabuddin Sagor</h5>
+            <h5 className="text-sm text-primaryBlue pt-2">
+              By: Sahabuddin Sagor
+            </h5>
             <p className="font-Nantes">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia.
             </p>
-            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">Read More</button>
+            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+              Read More
+            </button>
           </div>
         </div>
-        <div className="bg-white">
-          <div>
-            <img src={team2} alt="" />
+        <div className="bg-white rounded-md">
+          <div className="ps-6 py-5 space-y-1">
+            <div className="-mt-[72px]">
+              <img className="rounded-md" src={team2} alt="team 2 img" />
+            </div>
+            <br />
+            <h5 className="text-sm text-primaryBlue pt-2">By: Nayem Khan</h5>
+            <p className="font-Nantes">
+              Lorem ipsum dolor sit amet consectetur
+            </p>
+
+            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+              Read More
+            </button>
           </div>
-          <h5>Name</h5>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid,
-            sed.
-          </p>
         </div>
-        <div className="bg-white">
-          <div>
-            <img src={team2} alt="" />
+        <div className="bg-white rounded-md">
+          <div className="ps-6 py-5 space-y-1">
+            <div className="-mt-[72px] relative">
+              <img className="rounded-md" src={team1} alt="team 3 img" />
+              <div className="absolute top-0 left-0 bg-white p-[6px] rounded-tl-md rounded-br-md">
+                <img
+                  className="w-[49px] h-[7px] "
+                  src={carrot}
+                  alt="team 1 img"
+                />
+              </div>
+            </div>
+            <h5 className="text-sm text-primaryBlue pt-2">
+              By: Shagor Sahabuddin
+            </h5>
+            <p className="font-Nantes">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia.
+            </p>
+            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+              Read More
+            </button>
           </div>
-          <h5>Name</h5>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid,
-            sed.
-          </p>
+        </div>
+        <div className="bg-white rounded-md">
+          <div className="ps-6 py-5 space-y-1">
+            <div className="-mt-[72px]">
+              <img className="rounded-md" src={team1} alt="team 4 img" />
+            </div>
+            <h5 className="text-sm text-primaryBlue pt-2">
+              By: Sahabuddin Sagor
+            </h5>
+            <p className="font-Nantes">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia.
+            </p>
+            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+              Read More
+            </button>
+          </div>
+        </div>
+        <div className="bg-white rounded-md">
+          <div className="ps-6 py-5 space-y-1">
+            <div className="-mt-[72px]">
+              <img className="rounded-md" src={team2} alt="team 5 img" />
+            </div>
+            <br />
+            <h5 className="text-sm text-primaryBlue pt-2">By: Nayem Khan</h5>
+            <p className="font-Nantes">
+              Key Takeaways from Robotics Invest 2023
+            </p>
+            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+              Read More
+            </button>
+          </div>
+        </div>
+        <div className="bg-white rounded-md">
+          <div className="ps-6 py-5 space-y-1">
+            <div className="-mt-[72px] relative">
+              <img className="rounded-md" src={team1} alt="team 6 img" />
+              <div className="absolute top-0 left-0 bg-white p-[6px] rounded-tl-md rounded-br-md">
+                <img
+                  className="w-[49px] h-[7px] "
+                  src={carrot}
+                  alt="team 1 img"
+                />
+              </div>
+            </div>
+            <h5 className="text-sm text-primaryBlue pt-2">
+              By: Shagor Sahabuddin
+            </h5>
+            <p className="font-Nantes">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia.
+            </p>
+            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+              Read More
+            </button>
+          </div>
         </div>
       </div>
     </section>
