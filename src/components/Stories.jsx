@@ -8,7 +8,7 @@ const Stories = () => {
     <section>
       <SectionTitle title={"Stories & Ideas"} />
       <p className="font-Messina text-xl">The latest news and updates</p>
-      <div className="grid grid-cols-3 gap-x-7 gap-y-24 mt-28">
+      <div className="grid grid-cols-3 gap-x-7 gap-y-24 my-28">
         <div className="bg-white rounded-md">
           <div className="ps-6 py-5 space-y-1">
             <div className="-mt-[72px]">
@@ -123,6 +123,7 @@ const Stories = () => {
           </div>
         </div>
       </div>
+      <hr  className="mt-3 bg-[#90B8F0] p-[1px]"/>
     </section>
   );
 };
