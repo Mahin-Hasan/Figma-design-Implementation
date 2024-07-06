@@ -4,13 +4,13 @@ import about from "../assets/about.png";
 const About = () => {
   return (
     <section className="my-28">
-      <div className="bg-white rounded-md flex items-center flex-row">
-        <div className="ps-32 w-[54%]">
+      <div className="bg-white rounded-md flex items-center flex-col md:flex-row">
+        <div className="ps-2 md:ps-32 w-full md:w-[54%]">
           <SectionTitle title={"About WPPOOL"} />
           <h1 className="text-[#7D7F81] text-3xl font-Nantes mt-1 mb-2">
             Investing in wppool for over 50 years
           </h1>
-          <p className="font-Messina mb-8 w-[622px]">
+          <p className="font-Messina mb-8 md:w-[622px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
             mollitia, molestiae quas vel sint commodi{" "}
             <a
@@ -28,7 +28,7 @@ const About = () => {
             Contact WPPOOL
           </button>
         </div>
-        <div className="w-[46%]">
+        <div className="w-full md:w-[46%]">
           <img
             className="w-full h-full object-cover"
             src={about}

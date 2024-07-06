@@ -1,7 +1,7 @@
 import SectionTitle from "./SectionTitle";
 
 import stripe from "../assets/stripe.png";
-import kalarna from "../assets/klarna.png";
+import klarna from "../assets/klarna.png";
 import plaid from "../assets/plaid.png";
 import checkout from "../assets/checkout.png";
 import revolut from "../assets/revolut.png";
@@ -18,14 +18,14 @@ const FutureListings = () => {
       <p className="font-Messina md:w-[700px] lg:w-[880px] my-6">
         Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
         libero et velit interdum, ac aliquet odio mattis. Class aptent taciti
-        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.{" "}
+        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
       </p>
       <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 lg:gap-5">
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
           <img src={stripe} alt="" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img src={kalarna} alt="" />
+          <img src={klarna} alt="" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
           <img src={plaid} alt="" />
