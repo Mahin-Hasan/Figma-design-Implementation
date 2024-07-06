@@ -5,7 +5,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   console.log(toggle);
   return (
     <nav className="fixed w-full top-0 z-20">
