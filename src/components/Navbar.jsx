@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className="font-Messina mt-8">
           <ul className="text-lg space-y-6">
             <li>
-              <a href="">The WPPOOL Index</a>
+              <a href="#">The WPPOOL Index</a>
             </li>
             <li>
               <a href="">All Companies</a>

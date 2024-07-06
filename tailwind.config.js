@@ -13,7 +13,7 @@ export default {
       colors: {
         primaryBlue: "#2042B6",
         primary: "#ededed",
-        secondary: "#aaa6c3",
+        secondary: "#f3f3f3",
         tertiary: "#151030",
         footerBg: "#e6e6e6",
         "black-100": "#100d25",
