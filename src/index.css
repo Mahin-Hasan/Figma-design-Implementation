@@ -17,3 +17,35 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+/* swiper js custom CSS */
+
+.swiper .res-slide {
+  min-width: 300px;
+  max-width: 670px;
+  min-height: 360px;
+  border-radius: 10px;
+}
+
+.swiper-nav-btns button {
+  width: 56px;
+  height: 56px;
+  transition: all 0.5s;
+}
+
+.swiper-nav-btns button:hover {
+  background-color: hsl(210, 100%, 71%);
+  cursor: pointer;
+}
+
+.res-slide:nth-child(1) {
+  background: center / cover no-repeat url("../src/assets/slide1.png");
+}
+
+.res-slide:nth-child(2) {
+  background: center / cover no-repeat url("../src/assets/slide2.png");
+}
+
+.res-slide:nth-child(3) {
+  background: center / cover no-repeat url("../src/assets/slide3.png");
+}

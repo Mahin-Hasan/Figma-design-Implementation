@@ -6,7 +6,7 @@ import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  console.log(toggle);
+  
   return (
     <nav className="fixed w-full top-0 z-20">
       <div className="flex items-center py-5 mt-5 justify-between px-16 relative">
