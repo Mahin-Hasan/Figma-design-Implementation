@@ -32,16 +32,8 @@ const Reports = () => {
           <SwiperSlide className="res-slide" />
           <div className="mt-4 flex justify-between">
             <SwiperNavButtons />
-            {/* <div className="flex items-center gap-3">
-              <p>Pages</p>
-              <button className="flex justify-center items-center h-[56px] bg-white gap-6 p-4 rounded-full">
-                <span className="font-Messina">1 and 2</span>
-                <BiSolidDownArrow className="text-xs" />
-              </button>
-              of 37
-            </div> */}
             <button className="rounded-full p-4 text-white me-3 bg-primaryBlue">
-              <p className="font-Messina">Download the 2024 Report</p>
+              <p className="font-Messina">Download the 2023 Report</p>
             </button>
           </div>
         </Swiper>
