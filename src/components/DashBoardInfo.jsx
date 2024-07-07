@@ -3,6 +3,7 @@ import orangeBorder from "../assets/orangeBorder.png";
 import blueBorder from "../assets/blueBorder.png";
 import greenBorder from "../assets/greenBorder.png";
 import purpleBorder from "../assets/purpleBorder.png";
+import LineChart from "./LineChart";
 
 const DashBoardInfo = () => {
   return (
@@ -31,21 +32,20 @@ const DashBoardInfo = () => {
         <div className="bg-secondary flex justify-between items-center p-3 rounded-xl">
           <h1 className="text-3xl font-Nantes text-[#7CA63A] flex-1">+34.1%</h1>
           <p className="font-Messina pe-2">
-            WPPOOL <br />
-            Index
+          Microsoft
           </p>
           <img className="h-12 rounded-sm " src={greenBorder} alt="" />
         </div>
         <div className="bg-secondary flex justify-between items-center p-3 rounded-xl">
           <h1 className="text-3xl font-Nantes text-[#6F34A1] flex-1">+17%</h1>
           <p className="font-Messina pe-2">
-            WPPOOL <br />
+            Google <br />
             Index
           </p>
           <img className="h-12 rounded-sm " src={purpleBorder} alt="" />
         </div>
       </div>
-      <span>add chart later</span>
+      <LineChart/>
 
     </div>
   );
