@@ -20,9 +20,7 @@ const About = () => {
             >
               repudiandae
             </a>{" "}
-            consequuntur voluptatum laborumnumquam blanditiis harum quisquam
-            eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum!
-            Provident similique accusantium nemo autem.
+            consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.
           </p>
           <button className="bg-primaryBlue px-4 py-3 text-white rounded-full">
             Contact WPPOOL
