@@ -1,11 +1,8 @@
-// bg-[rgba(0,0,255,0.67)]
-
 import { IoArrowDownSharp } from "react-icons/io5";
 
-//adjusted bg color to hex #0019A3 | #001CB8
 const Home = () => {
   return (
-    <section className="pt-5">
+    <section id="wppoolIndex" className="pt-5">
       <div className="h-screen bg-matrix-pattern bg-auto bg-no-repeat bg-center relative">
         <div className="absolute top-0 left-0 w-full h-full bg-[#001CB8] opacity-85 rounded-2xl">
           {/* Empty div for matrix bg overlay  */}
@@ -43,7 +40,7 @@ const Home = () => {
             </div>
             <div className="flex flex-col justify-end h-screen text-white space-y-12 pe-14 pb-14">
               <div className="bg-white p-8 rounded-full cursor-pointer shadow-2xl">
-                <IoArrowDownSharp className="text-primaryBlue text-xl" />
+                <a href="#footerSection"><IoArrowDownSharp className="text-primaryBlue text-xl" /></a>
               </div>
             </div>
           </div>

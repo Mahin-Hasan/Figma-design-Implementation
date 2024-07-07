@@ -1,8 +1,9 @@
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
+
   return (
-    <footer className="lg:pe-48">
+    <footer id="footerSection" className="lg:pe-48">
       <div className="bg-footerBg rounded-tr-md  py-10">
         <div className="lg:ps-48 ">
           {/* footer container */}

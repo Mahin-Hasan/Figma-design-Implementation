@@ -4,7 +4,7 @@ import Table from "./Table";
 
 const AllCompanies = () => {
   return (
-    <section>
+    <section id="allCompanies">
       <div className="p-5 mt-20 bg-white rounded-xl">
         <div className="flex items-center justify-between px-8 py-8">
           <SectionTitle title={"All Companies"} />

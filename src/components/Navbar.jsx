@@ -10,7 +10,7 @@ const Navbar = () => {
   const [bgColor, setBgColor] = useState(false);
 
   const changeColor = () => {
-    if (window.scrollY >= 900) {
+    if (window.scrollY >= 950) {
       setBgColor(true);
     } else {
       setBgColor(false);
@@ -19,18 +19,17 @@ const Navbar = () => {
 
   window.addEventListener("scroll", changeColor);
 
-  console.log(bgColor);
   return (
     <nav className="fixed w-full top-0 z-20">
       <div
-       className={`${bgColor ? 'bg-secondary shadow-2xl' : 'bg-transparent shadow-none'} flex items-center py-3 mt-5 justify-between relative mx-12 px-4 rounded-md shadow-2xl `}
+       className={`${bgColor ? 'bg-secondary shadow-2xl' : 'bg-transparent shadow-none'} flex items-center py-3 mt-5 justify-between relative mx-12 px-4 rounded-md shadow-2xl`}
          >
         <div>
-          <img
+         <a href="#"> <img
             className="w-[200.52px] h-[34.63px]"
             src={bgColor ? navIconBlack : navIcon}
-            alt=""
-          />
+            alt="Nav Icon"
+          /></a>
         </div>
         <div className="flex items-center gap-3">
           <div
@@ -84,32 +83,32 @@ const Navbar = () => {
         <div className="font-Messina mt-8">
           <ul className="text-lg space-y-6">
             <li>
-              <a href="#">The WPPOOL Index</a>
+              <a href="#wppoolIndex">The WPPOOL Index</a>
             </li>
             <li>
-              <a href="">All Companies</a>
+              <a href="#allCompanies">All Companies</a>
             </li>
             <li>
-              <a href="">Potential Future Listings</a>
+              <a href="#futureListings">Potential Future Listings</a>
             </li>
             <li>
-              <a href="">State of USA</a>
+              <a href="#stateUSA">State of USA</a>
             </li>
             <li>
-              <a href="">Stories & Ideas</a>
+              <a href="#stories">Stories & Ideas</a>
             </li>
             <li>
-              <a href="">About WPPOOL</a>
+              <a href="#about">About WPPOOL</a>
             </li>
             <li>
-              <a href="">WPPOOL Portfolio Companies</a>
+              <a href="#companies">WPPOOL Portfolio Companies</a>
             </li>
           </ul>
         </div>
         <div className="font-Nantes text-primaryBlue text-[21px] my-8">
           <ul>
             <li>
-              <a href="">Visit WPPOOL</a>
+              <a target="blank" href="https://wppool.dev">Visit WPPOOL</a>
             </li>
           </ul>
         </div>

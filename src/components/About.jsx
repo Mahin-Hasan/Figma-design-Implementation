@@ -3,7 +3,7 @@ import about from "../assets/about.png";
 
 const About = () => {
   return (
-    <section className="my-28">
+    <section id="about" className="my-28">
       <div className="bg-white rounded-md flex items-center flex-col md:flex-row">
         <div className="ps-2 md:ps-32 w-full md:w-[54%]">
           <SectionTitle title={"About WPPOOL"} />

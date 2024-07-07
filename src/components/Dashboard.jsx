@@ -3,8 +3,8 @@ import DashboardOptions from "./DashboardOptions";
 
 const Dashboard = () => {
   return (
-    <section className="p-5 bg-white">
-      <div className="flex h-screen flex-col sm:flex-row">
+    <section className="p-5 bg-white pt-28">
+      <div className="flex flex-col sm:flex-row">
         {/* Dashboard option */}
         <DashboardOptions />
         {/* Dashboard chart */}

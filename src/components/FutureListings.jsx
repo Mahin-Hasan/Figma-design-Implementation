@@ -13,7 +13,7 @@ import gusto from "../assets/gusto.png";
 
 const FutureListings = () => {
   return (
-    <section className="my-28 px-2">
+    <section id="futureListings" className="my-28 px-2">
       <SectionTitle title={"Potential Future Listings"} />
       <p className="font-Messina md:w-[700px] lg:w-[880px] my-6">
         Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate

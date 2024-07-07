@@ -20,7 +20,7 @@ import snapsheet from "../assets/snapsheet.png";
 
 const Companies = () => {
   return (
-    <section className="px-2">
+    <section id="companies" className="px-2">
       <hr className="bg-[#90B8F0] p-[1px] mb-28" />
       <SectionTitle title={"Selected WPPOOL Portfolio Companies"} />
 

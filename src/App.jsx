@@ -11,6 +11,7 @@ import Stories from "./components/Stories";
 import { styles } from "./styles";
 
 function App() {
+  
   return (
     <>
       <div className="bg-primary">
