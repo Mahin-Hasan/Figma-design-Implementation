@@ -51,8 +51,8 @@ const LineChart = () => {
 
   return (
     <div>
-      <div className="flex flex-col sm:flex-row justify-between mt-6">
-        <div className="flex flex-col sm:flex-row gap-4 sm:justify-center items-center sm:items-stretch">
+      <div className="flex flex-col lg:flex-row justify-between mt-6">
+        <div className="flex flex-col xl:flex-row gap-4 md:justify-center items-center md:items-stretch">
           <div>
             <button className="flex justify-center items-center bg-primaryBlue gap-48 text-white px-3 py-2 rounded-full">
               <span className="text-xs font-Messina">Sectors</span>
@@ -60,15 +60,15 @@ const LineChart = () => {
             </button>
           </div>
           <div>
-            <button className="flex justify-center items-center bg-primaryBlue gap-40 text-white px-3 py-2 rounded-full">
+            <button className="flex justify-center items-center bg-primaryBlue gap-40 text-white px-[14px] py-2 rounded-full">
               <span className="text-xs font-Messina">Types of IPO</span>
               <BiSolidDownArrow className="text-[8px]" />
             </button>
           </div>
         </div>
-        <div className="flex justify-center items-center mt-4 sm:mt-0">
+        <div className="flex justify-center md:justify-end items-center mt-4 lg:mt-0">
           <div className="bg-[#EFF3F6] font-Messina py-1 text-xs space-x-8 rounded-full">
-            <button className="text-[#748DA1] ps-12">1Y</button>
+            <button className="text-[#748DA1] ps-6 md:ps-12">1Y</button>
             <button className="text-[#748DA1]">YTD</button>
             <button className="bg-primaryBlue text-white px-2 py-1 rounded-full">
               6M
@@ -78,7 +78,6 @@ const LineChart = () => {
           </div>
         </div>
       </div>
-
       <Chart type="line" height={380} series={items} options={options} />
     </div>
   );

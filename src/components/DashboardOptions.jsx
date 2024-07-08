@@ -2,7 +2,7 @@ import { LuPlus } from 'react-icons/lu';
 
 const DashboardOptions = () => {
     return (
-        <div className="w-full sm:w-56 bg-[#eff3f6] p-2 font-Nantes rounded-xl">
+        <div className="w-full md:w-56 bg-[#eff3f6] p-2 font-Nantes rounded-xl">
           <ul className="space-y-1">
             <li>
               <a

@@ -12,7 +12,7 @@ const DashBoardInfo = () => {
         <img src={rectangleSm} alt="" />
         <h1 className="text-4xl font-Nantes">The WPPOOL Index</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         <div className="bg-secondary flex justify-between items-center p-3 rounded-xl">
           <h1 className="text-3xl font-Nantes text-[#FC714D] flex-1">+66.2%</h1>
           <p className="font-Messina pe-2">
