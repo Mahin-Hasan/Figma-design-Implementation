@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full top-0 z-20">
       <div
-       className={`${bgColor ? 'bg-secondary shadow-2xl' : 'bg-transparent shadow-none'} flex items-center py-3 mt-5 justify-between relative mx-12 px-4 rounded-md shadow-2xl`}
+       className={`${bgColor ? 'bg-secondary shadow-2xl' : 'bg-transparent shadow-none'} flex items-center py-3 mt-5 justify-between relative mx-6 sm:mx-12 px-4 rounded-md shadow-2xl`}
          >
         <div>
          <a href="#"> <img
@@ -37,7 +37,7 @@ const Navbar = () => {
               bgColor
                 ? "border-[#AFCD80] text-black"
                 : "border-white text-white"
-            } border-2 rounded-full p-4 `}
+            } border-2 rounded-full p-4 hidden sm:block`}
           >
             <IoShareSocial className="text-base" />
           </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
               bgColor
                 ? "border-[#115CD9] text-black"
                 : "border-white text-white"
-            } border-2 rounded-full p-4 text-white me-3`}
+            } border-2 rounded-full p-4 text-white me-3 hidden sm:block`}
           >
             <p className="font-Messina text-xs">Download the 2024 Report</p>
           </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
       <div
         className={`${
           !toggle ? "hidden" : ""
-        } justify-end py-1 me-8 px-8 bg-white absolute right-0 rounded-2xl top-7 shadow-2xl`}
+        } justify-end py-1 me-6 sm:me-8 px-6 sm:px-8 bg-white absolute right-0 rounded-2xl top-7 shadow-2xl`}
       >
         <div className="flex items-center gap-3">
           <div className="border-2 rounded-full p-4 text-white bg-[#AFCD80]">
@@ -81,7 +81,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="font-Messina mt-8">
-          <ul className="text-lg space-y-6">
+          <ul className="text-lg space-y-3 sm:space-y-6">
             <li>
               <a href="#wppoolIndex">The WPPOOL Index</a>
             </li>

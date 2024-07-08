@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <div className={`${styles.fixedPadding}`}>
           <Home />
-          <Dashboard />
+          {/* <Dashboard /> */}
           <AllCompanies />
         </div>
         <div className="container mx-auto">
