@@ -24,7 +24,7 @@ const Companies = () => {
       <hr className="bg-[#90B8F0] p-[1px] mb-28" />
       <SectionTitle title={"Selected WPPOOL Portfolio Companies"} />
 
-      <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 lg:gap-5 my-12">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 lg:gap-5 my-12">
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
           <img className="px-6" src={alibaba} alt="" />
         </div>

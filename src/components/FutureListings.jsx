@@ -20,7 +20,7 @@ const FutureListings = () => {
         libero et velit interdum, ac aliquet odio mattis. Class aptent taciti
         sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
       </p>
-      <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 lg:gap-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 lg:gap-5">
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
           <img src={stripe} alt="" />
         </div>

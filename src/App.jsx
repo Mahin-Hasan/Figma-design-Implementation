@@ -10,6 +10,8 @@ import Reports from "./components/Reports";
 import Stories from "./components/Stories";
 import { styles } from "./styles";
 
+
+
 function App() {
   
   return (
@@ -24,11 +26,11 @@ function App() {
         <div className="container mx-auto">
           <FutureListings />
           <Reports />
-          <Stories />
+          {/* <Stories />
           <About />
-          <Companies />
+          <Companies /> */}
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

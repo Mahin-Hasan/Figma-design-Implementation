@@ -23,7 +23,7 @@ export const SwiperNavButtons = () => {
       </div>
       <div className="flex items-center gap-4">
         <p className="ps-5">Pages</p>
-        <div className="flex justify-center items-center h-[56px] bg-white gap-6 p-4 rounded-full cursor-pointer">
+        <div className="flex justify-center items-center  sm:h-[56px] bg-white gap-2 sm:gap-6 p-2 sm:p-4 rounded-full cursor-pointer">
           <span className="font-Messina">1 and 2</span>
           <BiSolidDownArrow className="text-xs" />
         </div>
