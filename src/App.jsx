@@ -19,16 +19,16 @@ function App() {
         <div className={`${styles.fixedPadding}`}>
           <Home />
           <Dashboard />
-          {/* <AllCompanies /> */}
+          <AllCompanies />
         </div>
         <div className="container mx-auto">
-          {/* <FutureListings />
+          <FutureListings />
           <Reports />
           <Stories />
           <About />
-          <Companies /> */}
+          <Companies />
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );

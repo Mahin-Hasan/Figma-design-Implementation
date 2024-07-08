@@ -10,7 +10,7 @@ const DashBoardInfo = () => {
     <div className="flex-1 p-5">
       <div className="flex items-center gap-2 mb-4">
         <img src={rectangleSm} alt="" />
-        <h1 className="text-4xl font-Nantes">The WPPOOL Index</h1>
+        <h1 className="text-2xl sm:text-4xl font-Nantes">The WPPOOL Index</h1>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         <div className="bg-secondary flex justify-between items-center p-3 rounded-xl">
