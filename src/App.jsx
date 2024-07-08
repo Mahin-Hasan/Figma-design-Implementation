@@ -26,11 +26,11 @@ function App() {
         <div className="container mx-auto">
           <FutureListings />
           <Reports />
-          {/* <Stories />
+          <Stories />
           <About />
-          <Companies /> */}
+          <Companies />
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
