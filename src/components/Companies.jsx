@@ -20,7 +20,7 @@ import snapsheet from "../assets/snapsheet.png";
 
 const Companies = () => {
   return (
-    <section id="companies" className="px-2">
+    <section id="companies" className="px-2 sm:px-0">
       <hr className="bg-[#90B8F0] p-[1px] mb-28" />
       <SectionTitle title={"Selected WPPOOL Portfolio Companies"} />
 
@@ -62,16 +62,16 @@ const Companies = () => {
           <img className="px-10" src={quovo} alt="" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img className="w-[210px]" src={spendesk} alt="" />
+          <img className="px-4 sm:px-0 md:w-[210px]" src={spendesk} alt="" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img className="w-[210px]" src={notabene} alt="" />
+          <img className="px-4 sm:px-0 w-[210px]" src={notabene} alt="" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img className="w-[170px]" src={recurly} alt="" />
+          <img className="px-5 sm:px-0 w-[170px]" src={recurly} alt="" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img className="w-[200px]" src={fireblock} alt="" />
+          <img className="px-3 sm:px-0 w-[200px]" src={fireblock} alt="" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
           <img className="px-8" src={kensho} alt="" />

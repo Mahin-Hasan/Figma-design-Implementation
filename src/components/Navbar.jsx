@@ -47,7 +47,7 @@ const Navbar = () => {
               bgColor
                 ? "border-[#115CD9] text-black"
                 : "border-white text-white"
-            } border-2 rounded-full p-4 text-white me-3 hidden sm:block`}
+            } border-2 rounded-full p-4 me-3 hidden sm:block`}
           >
             <p className="font-Messina text-xs">Download the 2024 Report</p>
           </div>
