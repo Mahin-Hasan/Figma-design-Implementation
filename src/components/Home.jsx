@@ -38,7 +38,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="mt-8 sm:mt-0 md:-ms-20 text-center">
+            <div className="mt-8 sm:mt-0 md:-ms-40 text-center">
               <h1 className="text-[34px] sm:text-[42px] md:text-[46px] lg:text-[78px] text-white font-Nantes">
                 The WPPOOL Index
               </h1>
