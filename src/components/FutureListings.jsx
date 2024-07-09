@@ -13,7 +13,7 @@ import gusto from "../assets/gusto.png";
 
 const FutureListings = () => {
   return (
-    <section id="futureListings" className="my-28 px-2">
+    <section id="futureListings" className="my-28 px-2 md:px-0">
       <SectionTitle title={"Potential Future Listings"} />
       <p className="font-Messina md:w-[700px] lg:w-[880px] my-6">
         Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
@@ -22,34 +22,34 @@ const FutureListings = () => {
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 lg:gap-5">
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img src={stripe} alt="" />
+          <img src={stripe} alt="list img" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img src={klarna} alt="" />
+          <img src={klarna} alt="list img" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img src={plaid} alt="" />
+          <img src={plaid} alt="list img" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img src={checkout} alt="" />
+          <img src={checkout} alt="list img" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img src={revolut} alt="" />
+          <img src={revolut} alt="list img" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img src={chime} alt="" />
+          <img src={chime} alt="list img" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img src={n26} alt="" />
+          <img src={n26} alt="list img" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img src={brex} alt="" />
+          <img src={brex} alt="list img" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img src={deel} alt="" />
+          <img src={deel} alt="list img" />
         </div>
         <div className="bg-white h-[110px] lg:h-[140px] flex justify-center items-center rounded-lg">
-          <img src={gusto} alt="" />
+          <img src={gusto} alt="list img" />
         </div>
       </div>
     </section>

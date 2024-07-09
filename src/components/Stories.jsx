@@ -5,7 +5,7 @@ import carrot from "../assets/carrot.png";
 
 const Stories = () => {
   return (
-    <section id="stories" className="px-2">
+    <section id="stories" className="px-2 md:px-0">
       <SectionTitle title={"Stories & Ideas"} />
       <p className="font-Messina text-xl text-[#191618]">The latest news and updates</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-20 sm:gap-y-24 my-20 md:my-24">

@@ -9,6 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [bgColor, setBgColor] = useState(false);
 
+  // Function for handling Navbar color change
   const changeColor = () => {
     if (window.scrollY >= 923) {
       setBgColor(true);

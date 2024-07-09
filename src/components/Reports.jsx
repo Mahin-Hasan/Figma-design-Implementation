@@ -9,7 +9,7 @@ import { SwiperNavButtons } from "./SwiperNavButtons";
 
 const Reports = () => {
   return (
-    <section id="stateUSA" className=" bg-sliderBG alignSlider bg-auto bg-no-repeat bg-right px-2 pb-8">
+    <section id="stateUSA" className=" bg-sliderBG alignSlider bg-auto bg-no-repeat bg-right px-2 md:px-0 pb-8">
       <div className="space-y-4 relative">
         <SectionTitle title={"State of USA"} />
         <button className="flex justify-center items-center bg-primaryBlue gap-10 text-white px-6 rounded-full">

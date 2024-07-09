@@ -31,9 +31,7 @@ const DashBoardInfo = () => {
         </div>
         <div className="bg-secondary flex justify-between items-center p-3 rounded-xl">
           <h1 className="text-3xl font-Nantes text-[#7CA63A] flex-1">+34.1%</h1>
-          <p className="font-Messina pe-2">
-          Microsoft
-          </p>
+          <p className="font-Messina pe-2">Microsoft</p>
           <img className="h-12 rounded-sm " src={greenBorder} alt="" />
         </div>
         <div className="bg-secondary flex justify-between items-center p-3 rounded-xl">
@@ -45,8 +43,7 @@ const DashBoardInfo = () => {
           <img className="h-12 rounded-sm " src={purpleBorder} alt="" />
         </div>
       </div>
-      <LineChart/>
-
+      <LineChart />
     </div>
   );
 };
