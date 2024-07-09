@@ -3,28 +3,130 @@ import Chart from "react-apexcharts";
 import { BiSolidDownArrow } from "react-icons/bi";
 
 const LineChart = () => {
+  //function for creating random data for the table
+  const generateDataPoints = (numPoints) => {
+    const data = [];
+    for (let i = 0; i < numPoints; i++) {
+      if (i < numPoints / 13) {
+        data.push(Math.floor(Math.random() * 1600));
+      } else if (i < (2 * numPoints) / 13) {
+        data.push(Math.floor(Math.random() * 1300) + 2500);
+      } else if (i < (3 * numPoints) / 13) {
+        data.push(Math.floor(Math.random() * 3000) + 4000);
+      } else if (i < (4 * numPoints) / 13) {
+        data.push(Math.floor(Math.random() * 2000) + 1000);
+      } else if (i < (5 * numPoints) / 13) {
+        data.push(Math.floor(Math.random() * 2000) + 2500);
+      } else if (i < (6 * numPoints) / 13) {
+        data.push(Math.floor(Math.random() * 3000) + 3000);
+      } else if (i < (7 * numPoints) / 13) {
+        data.push(Math.floor(Math.random() * 6000) + 3000);
+      } else if (i < (8 * numPoints) / 13) {
+        data.push(Math.floor(Math.random() * 4000) + 3000);
+      } else if (i < (9 * numPoints) / 13) {
+        data.push(Math.floor(Math.random() * 2500) + 3000);
+      } else if (i < (10 * numPoints) / 13) {
+        data.push(Math.floor(Math.random() * 2000) + 3000);
+      } else if (i < (11 * numPoints) / 13) {
+        data.push(Math.floor(Math.random() * 2500) + 3000);
+      } else if (i < (12 * numPoints) / 13) {
+        data.push(Math.floor(Math.random() * 3000) + 3000);
+      } else {
+        data.push(Math.floor(Math.random() * 3000) + 7000);
+      }
+    }
+    return data;
+  };
+
   const [items, setItems] = useState([
     {
       name: "WPPOOL",
-      data: [150, 6534, 4065, 8454, 8767, 7086, 6344],
+      data: generateDataPoints(66),
     },
     {
       name: "Google",
-      data: [120, 4200, 2805, 3245, 5767, 7726, 7878],
+      data: generateDataPoints(66),
     },
     {
       name: "Microsoft",
-      data: [-1000, 6900, 4965, 7245, 1567, 4286, 6843],
+      data: generateDataPoints(66),
     },
     {
       name: "Twitter",
-      data: [0, 234, 2165, 1545, 1867, 2286, 3700],
+      data: generateDataPoints(66),
     },
   ]);
 
   const [options, setOptions] = useState({
     xaxis: {
-      categories: ["", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+      categories: [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Feb",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Mar",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Apr",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "May",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Jun",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Jul",
+      ],
     },
     yaxis: {
       min: -1000,
@@ -53,17 +155,32 @@ const LineChart = () => {
     <div>
       <div className="flex flex-col lg:flex-row justify-between mt-6">
         <div className="flex flex-col xl:flex-row gap-4 md:justify-center items-center md:items-stretch">
-          <div>
-            <button className="flex justify-center items-center bg-primaryBlue gap-48 text-white px-3 py-2 rounded-full">
-              <span className="text-xs font-Messina">Sectors</span>
-              <BiSolidDownArrow className="text-[8px]" />
-            </button>
+          <div className="bg-primaryBlue text-white px-2 py-1 rounded-full w-60">
+            <div className="relative ">
+              <select
+                name="sectors"
+                id="sectors"
+                className="bg-primaryBlue appearance-none pr-40 pl-2 py-0 rounded-full text-white"
+              >
+                <option value="volvo">Sectors</option>
+                <option value="saab">Division</option>
+                <option value="mercedes">Local</option>
+              </select>
+              <BiSolidDownArrow className="absolute top-1/2 right-2 transform -translate-y-1/2 text-[8px]" />
+            </div>
           </div>
-          <div>
-            <button className="flex justify-center items-center bg-primaryBlue gap-40 text-white px-[14px] py-2 rounded-full">
-              <span className="text-xs font-Messina">Types of IPO</span>
-              <BiSolidDownArrow className="text-[8px]" />
-            </button>
+          <div className="bg-primaryBlue text-white px-2 py-1 rounded-full w-60">
+            <div className="relative">
+              <select
+                name="sectors"
+                id="sectors"
+                className="bg-primaryBlue appearance-none w-56 pl-2 py-0 rounded-full text-white"
+              >
+                <option value="volvo">Types of IPO</option>
+                <option value="saab">Types of ROI </option>
+              </select>
+              <BiSolidDownArrow className="absolute top-1/2 right-2 transform -translate-y-1/2 text-[8px]" />
+            </div>
           </div>
         </div>
         <div className="flex justify-center md:justify-end items-center mt-4 lg:mt-0">

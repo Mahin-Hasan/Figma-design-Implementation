@@ -23,7 +23,7 @@ const AllCompanies = () => {
                 type="search"
                 name="Search"
                 placeholder="Search Companies"
-                className="w-full p-4 pl-10 text-2xl rounded-md focus:outline-none bg-secondary placeholder:ps-3 placeholder:text-[#191618] text-blue-600 focus:bg-blue-50 focus:border-blue-600"
+                className="w-full p-2 md:p-4 pl-8 md:pl-10 md:text-2xl rounded-md focus:outline-none bg-secondary placeholder:ps-3 placeholder:text-[#191618] text-blue-600 focus:bg-blue-50 focus:border-blue-600"
               />
             </div>
           </fieldset>

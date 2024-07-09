@@ -3,15 +3,15 @@ import { IoArrowDownSharp } from "react-icons/io5";
 const Home = () => {
   return (
     <section id="wppoolIndex" className="pt-5">
-      <div className="h-[85vh] sm:h-screen bg-matrix-pattern bg-auto bg-no-repeat bg-center relative">
+      <div className="h-[90vh] sm:h-[98vh] bg-matrix-pattern bg-auto bg-no-repeat bg-center relative">
         <div className="absolute top-0 left-0 w-full h-full bg-[#001CB8] opacity-85 rounded-2xl">
           {/* Empty div for matrix bg overlay  */}
         </div>
         <div className="absolute top-0 left-0 w-full h-full bg-rectangleBG bg-auto bg-no-repeat bg-center">
-          <div className="flex flex-col md:flex-row items-center sm:justify-between h-[85vh] sm:h-screen">
-            <div className="flex flex-col sm:flex-row justify-end text-white  ps-6 sm:ps-14 h-[85vh] sm:h-screen sm:items-end">
+          <div className="flex flex-col md:flex-row items-center sm:justify-between h-[90vh] sm:h-[98vh]">
+            <div className="flex flex-col sm:flex-row justify-end text-white  ps-6 sm:ps-14 h-[90vh] sm:h-[98vh] sm:items-end">
               <div className="grid grid-cols-2 md:grid-cols-1 gap-4 md:gap-12 lg:gap-24 mb-12">
-                <div>
+                <div> 
                   <h1 className="font-Nantes text-2xl sm:text-4xl">60</h1>
                   <p className="font-Messina tracking-wide text-[#CDCDCD] text-sm sm:text-base">
                     Companies
@@ -48,7 +48,7 @@ const Home = () => {
               </p>
             </div>
             
-            <div className="flex flex-col justify-end h-[85vh] sm:h-screen text-white space-y-12 pe-6 sm:pe-14 pb-14">
+            <div className="flex flex-col justify-end h-[90vh] sm:h-[98vh] text-white space-y-12 pe-6 sm:pe-14 pb-14">
               <div className="bg-white p-6 sm:p-8 rounded-full cursor-pointer shadow-2xl absolute right-6 sm:block">
                 <a href="#footerSection">
                   <IoArrowDownSharp className="text-primaryBlue text-xl" />

@@ -1,7 +1,6 @@
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
-
   return (
     <footer id="footerSection" className="lg:pe-12  2xl:pe-48">
       <div className="bg-footerBg rounded-tr-md  py-10">
@@ -19,22 +18,34 @@ const Footer = () => {
                 <h6 className="font-bold text-[#9FA0A1] mb-2">Jump to</h6>
                 <ul className="text-[#115CD9] space-y-1 sm:space-y-2 ">
                   <li>
-                    <a className="hover:underline underline-offset-4" href="">About Us</a>
+                    <a className="hover:underline underline-offset-4" href="#about">
+                      About Us
+                    </a>
                   </li>
                   <li>
-                    <a className="hover:underline underline-offset-4" href="">Portfolio</a>
+                    <a className="hover:underline underline-offset-4" href="#">
+                      Portfolio
+                    </a>
                   </li>
                   <li>
-                    <a className="hover:underline underline-offset-4" href="">News</a>
+                    <a className="hover:underline underline-offset-4" href="#">
+                      News
+                    </a>
                   </li>
                   <li>
-                    <a className="hover:underline underline-offset-4" href="">Stories</a>
+                    <a className="hover:underline underline-offset-4" href="#stories">
+                      Stories
+                    </a>
                   </li>
                   <li>
-                    <a className="hover:underline underline-offset-4" href="">Jobs</a>
+                    <a className="hover:underline underline-offset-4" href="#">
+                      Jobs
+                    </a>
                   </li>
                   <li>
-                    <a className="hover:underline underline-offset-4" href="">About Us</a>
+                    <a className="hover:underline underline-offset-4" href="#about">
+                      About Us
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -68,20 +79,42 @@ const Footer = () => {
                   <hr className="bg-[#9FA0A1] w-full sm:w-[258px] p-[1px]" />
                 </div>
                 <div className="flex gap-6 mt-4">
-                  <FaLinkedin className="text-[#9FA0A1] hover:text-blue-600 text-[27px]" />
-                  <FaTwitter className="text-[#9FA0A1] hover:text-sky-600 text-[27px]" />
+                  <a target="blank" href="https://www.linkedin.com/company/wppool/">
+                    <FaLinkedin className="text-[#9FA0A1] hover:text-blue-600 text-[27px]" />
+                  </a>
+                  <a target="blank" href="https://x.com/wppool_?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                    <FaTwitter className="text-[#9FA0A1] hover:text-sky-600 text-[27px]" />
+                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div className="font-Messina text-sm sm:-mt-12 px-2 lg:px-0">
             <ul className="flex gap-4 font-bold text-[#9FA0A1]">
-              <li><a className="hover:underline underline-offset-4" href="#">©2024</a></li>
-              <li><a className="hover:underline underline-offset-4" href="#">Terms of Use</a></li>
-              <li><a className="hover:underline underline-offset-4" href="#">Privacy Policy</a></li>
+              <li>
+                <a className="hover:underline underline-offset-4" href="#">
+                  ©2024
+                </a>
+              </li>
+              <li>
+                <a className="hover:underline underline-offset-4" href="#">
+                  Terms of Use
+                </a>
+              </li>
+              <li>
+                <a className="hover:underline underline-offset-4" href="#">
+                  Privacy Policy
+                </a>
+              </li>
             </ul>
             <p className="w-full sm:w-[517px] mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaera 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia,molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+              fugiat iusto fuga praesentium optio, eaque rerum! Provident
+              similique accusantium nemo autem. Veritatis obcaecati tenetur iure
+              eius earum ut molestias architecto voluptate aliquam nihil,
+              eveniet aliquid culpa officia aut! Impedit sit sunt quaera
             </p>
           </div>
         </div>

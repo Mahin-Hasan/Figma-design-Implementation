@@ -8,7 +8,7 @@ const Stories = () => {
     <section id="stories" className="px-2">
       <SectionTitle title={"Stories & Ideas"} />
       <p className="font-Messina text-xl">The latest news and updates</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-20 sm:gap-y-24 my-28">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-20 sm:gap-y-24 my-20 md:my-24">
         <div className="bg-white rounded-md">
           <div className="ps-6 py-5 space-y-1">
             <div className="-mt-[72px]">
