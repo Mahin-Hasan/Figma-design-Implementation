@@ -7,15 +7,15 @@ export const SwiperNavButtons = () => {
 
   return (
     <div className="swiper-nav-btns flex">
-      <div className="flex gap-4">
+      <div className="flex gap-4 md:ps-2">
         <button
-          className="rounded-full bg-white w-10 sm:w-14 flex items-center justify-center text-primaryBlue text-2xl"
+          className="rounded-full bg-white w-10 sm:w-14 flex items-center justify-center text-primaryBlue text-2xl button-shadow2"
           onClick={() => swiper.slidePrev()}
         >
           <GrFormPreviousLink />
         </button>
         <button
-          className="rounded-full bg-white w-10 sm:w-14 flex items-center justify-center text-primaryBlue text-2xl"
+          className="rounded-full bg-white w-10 sm:w-14 flex items-center justify-center text-primaryBlue text-2xl button-shadow"
           onClick={() => swiper.slideNext()}
         >
           <GrFormNextLink />
@@ -23,7 +23,7 @@ export const SwiperNavButtons = () => {
       </div>
       <div className="flex items-center gap-4">
         <p className="ps-5">Pages</p>
-        <div className="flex justify-center items-center sm:h-[56px] bg-white gap-2 sm:gap-6 p-2 sm:p-4 rounded-full cursor-pointer">
+        <div className="flex justify-center items-center sm:h-[56px] bg-white gap-2 sm:gap-6 p-2 sm:p-4 rounded-full cursor-pointer button-shadow">
           <span className="font-Messina">1 and 2</span>
           <BiSolidDownArrow className="text-xs" />
         </div>

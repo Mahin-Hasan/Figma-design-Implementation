@@ -4,7 +4,7 @@ import about from "../assets/about.png";
 const About = () => {
   return (
     <section id="about" className="my-28 px-2 sm:px-0">
-      <div className="bg-white rounded-md flex items-center flex-col md:flex-row pt-8 md:pt-0">
+      <div className="bg-white rounded-xl flex items-center flex-col md:flex-row pt-8 md:pt-0">
         <div className="ps-2 md:ps-8 lg:ps-32 w-full md:w-[45%] lg:w-[54%] py-2">
           <SectionTitle title={"About WPPOOL"} />
           <h1 className="text-[#7D7F81] text-3xl font-Nantes mt-1 mb-2">
@@ -25,7 +25,7 @@ const About = () => {
             Provident similique accusantium nemo autem.
           </p>
 
-          <button className="bg-primaryBlue px-2 py-1 lg:px-4 lg:py-3 text-white rounded-full">
+          <button className="bg-primaryBlue px-3 py-2 lg:px-4 lg:py-3 text-white rounded-full button-shadow">
             Contact WPPOOL
           </button>
         </div>

@@ -9,6 +9,7 @@ export default {
       fontFamily:{
         'Nantes': ['NantesFont', 'sans-serif'],
         'Messina': ['MessinaFont', 'sans-serif'],
+        'NeueHaas': ['NeueHassFont', 'sans-serif'],
       },
       colors: {
         primaryBlue: "#2042B6",

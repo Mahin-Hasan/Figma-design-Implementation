@@ -2,8 +2,8 @@ import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer id="footerSection" className="lg:pe-12  2xl:pe-48">
-      <div className="bg-footerBg rounded-tr-md  py-10">
+    <footer id="footerSection" className="lg:pe-12  2xl:pe-[182px]">
+      <div className="bg-footerBg rounded-tr-xl py-10">
         <div className="lg:ps-12 2xl:ps-48 ">
           {/* footer container */}
           <div className="flex flex-col md:flex-row justify-between px-2 lg:px-0">
@@ -15,35 +15,35 @@ const Footer = () => {
             </div>
             <div className="flex w-full md:w-2/4 text-xl my-8 md:my-0 flex-col-reverse sm:flex-row justify-center lg:justify-normal md:px-2 lg:px-0">
               <div className="sm:w-60 mt-8 sm:mt-0">
-                <h6 className="font-bold text-[#9FA0A1] mb-2">Jump to</h6>
+                <h6 className="font-bold text-[#9FA0A1] mb-2 font-Messina">Jump to</h6>
                 <ul className="text-[#115CD9] space-y-1 sm:space-y-2 ">
                   <li>
-                    <a className="hover:underline underline-offset-4" href="#about">
+                    <a className="hover:underline underline-offset-4 font-NeueHaas" href="#about">
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a className="hover:underline underline-offset-4" href="#">
+                    <a className="hover:underline underline-offset-4 font-NeueHaas" href="#">
                       Portfolio
                     </a>
                   </li>
                   <li>
-                    <a className="hover:underline underline-offset-4" href="#">
+                    <a className="hover:underline underline-offset-4 font-NeueHaas" href="#">
                       News
                     </a>
                   </li>
                   <li>
-                    <a className="hover:underline underline-offset-4" href="#stories">
+                    <a className="hover:underline underline-offset-4 font-NeueHaas" href="#stories">
                       Stories
                     </a>
                   </li>
                   <li>
-                    <a className="hover:underline underline-offset-4" href="#">
+                    <a className="hover:underline underline-offset-4 font-NeueHaas" href="#">
                       Jobs
                     </a>
                   </li>
                   <li>
-                    <a className="hover:underline underline-offset-4" href="#about">
+                    <a className="hover:underline underline-offset-4 font-NeueHaas" href="#about">
                       About Us
                     </a>
                   </li>

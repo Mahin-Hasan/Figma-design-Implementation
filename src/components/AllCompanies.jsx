@@ -33,10 +33,10 @@ const AllCompanies = () => {
       </div>
 
       <div className="flex justify-center font-Messina text-white gap-2 sm:gap-4 my-8">
-        <button className="bg-primaryBlue px-2 py-2 text-xs sm:px-5 sm:py-3 rounded-full drop-shadow-2xl">
+        <button className="bg-primaryBlue px-2 py-2 text-xs sm:text-base sm:px-5 sm:py-3 rounded-full button-shadow">
           Download ‘All Companies’ Data
         </button>
-        <button className="bg-primaryBlue px-2 py-2 text-xs sm:text-base sm:px-5 sm:py-3 rounded-full drop-shadow-2xl">
+        <button className="bg-primaryBlue px-2 py-2 text-xs sm:text-base sm:px-5 sm:py-3 rounded-full button-shadow">
           View Methodology
         </button>
       </div>

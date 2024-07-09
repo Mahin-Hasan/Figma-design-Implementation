@@ -7,42 +7,42 @@ const Stories = () => {
   return (
     <section id="stories" className="px-2">
       <SectionTitle title={"Stories & Ideas"} />
-      <p className="font-Messina text-xl">The latest news and updates</p>
+      <p className="font-Messina text-xl text-[#191618]">The latest news and updates</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-20 sm:gap-y-24 my-20 md:my-24">
-        <div className="bg-white rounded-md">
+        <div className="bg-white rounded-xl">
           <div className="ps-6 py-5 space-y-1">
             <div className="-mt-[72px]">
               <img className="rounded-md" src={team1} alt="team 1 img" />
             </div>
-            <h5 className="text-sm text-primaryBlue pt-2">
+            <h5 className="text-sm text-primaryBlue font-Messina pt-2">
               By: Sahabuddin Sagor
             </h5>
             <p className="font-Nantes">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               mollitia.
             </p>
-            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+            <button className="bg-primaryBlue py-2 px-3 text-white rounded-full font-Messina text-sm ">
               Read More
             </button>
           </div>
         </div>
-        <div className="bg-white rounded-md">
+        <div className="bg-white rounded-xl">
           <div className="ps-6 py-5 space-y-1">
             <div className="-mt-[72px]">
               <img className="rounded-md" src={team2} alt="team 2 img" />
             </div>
             <br />
-            <h5 className="text-sm text-primaryBlue pt-2">By: Nayem Khan</h5>
+            <h5 className="text-sm text-primaryBlue font-Messina pt-2">By: Nayem Khan</h5>
             <p className="font-Nantes">
               Lorem ipsum dolor sit amet consectetur
             </p>
 
-            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+            <button className="bg-primaryBlue py-2 px-3 text-white rounded-full font-Messina text-sm ">
               Read More
             </button>
           </div>
         </div>
-        <div className="bg-white rounded-md">
+        <div className="bg-white rounded-xl">
           <div className="ps-6 py-5 space-y-1">
             <div className="-mt-[72px] relative">
               <img className="rounded-md" src={team1} alt="team 3 img" />
@@ -54,51 +54,51 @@ const Stories = () => {
                 />
               </div>
             </div>
-            <h5 className="text-sm text-primaryBlue pt-2">
+            <h5 className="text-sm text-primaryBlue font-Messina pt-2">
               By: Shagor Sahabuddin
             </h5>
             <p className="font-Nantes">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               mollitia.
             </p>
-            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+            <button className="bg-primaryBlue py-2 px-3 text-white rounded-full font-Messina text-sm ">
               Read More
             </button>
           </div>
         </div>
-        <div className="bg-white rounded-md">
+        <div className="bg-white rounded-xl">
           <div className="ps-6 py-5 space-y-1">
             <div className="-mt-[72px]">
               <img className="rounded-md" src={team1} alt="team 4 img" />
             </div>
-            <h5 className="text-sm text-primaryBlue pt-2">
+            <h5 className="text-sm text-primaryBlue font-Messina pt-2">
               By: Sahabuddin Sagor
             </h5>
             <p className="font-Nantes">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               mollitia.
             </p>
-            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+            <button className="bg-primaryBlue py-2 px-3 text-white rounded-full font-Messina text-sm ">
               Read More
             </button>
           </div>
         </div>
-        <div className="bg-white rounded-md">
+        <div className="bg-white rounded-xl">
           <div className="ps-6 py-5 space-y-1">
             <div className="-mt-[72px]">
               <img className="rounded-md" src={team2} alt="team 5 img" />
             </div>
             <br />
-            <h5 className="text-sm text-primaryBlue pt-2">By: Nayem Khan</h5>
+            <h5 className="text-sm text-primaryBlue font-Messina pt-2">By: Nayem Khan</h5>
             <p className="font-Nantes">
               Key Takeaways from Robotics Invest 2023
             </p>
-            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+            <button className="bg-primaryBlue py-2 px-3 text-white rounded-full font-Messina text-sm ">
               Read More
             </button>
           </div>
         </div>
-        <div className="bg-white rounded-md">
+        <div className="bg-white rounded-xl">
           <div className="ps-6 py-5 space-y-1">
             <div className="-mt-[72px] relative">
               <img className="rounded-md" src={team1} alt="team 6 img" />
@@ -110,14 +110,14 @@ const Stories = () => {
                 />
               </div>
             </div>
-            <h5 className="text-sm text-primaryBlue pt-2">
+            <h5 className="text-sm text-primaryBlue font-Messina pt-2">
               By: Shagor Sahabuddin
             </h5>
             <p className="font-Nantes">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               mollitia.
             </p>
-            <button className="bg-primaryBlue py-1 px-2 text-white rounded-full font-Messina text-sm ">
+            <button className="bg-primaryBlue py-2 px-3 text-white rounded-full font-Messina text-sm ">
               Read More
             </button>
           </div>

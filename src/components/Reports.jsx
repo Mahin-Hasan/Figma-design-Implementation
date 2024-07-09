@@ -9,7 +9,7 @@ import { SwiperNavButtons } from "./SwiperNavButtons";
 
 const Reports = () => {
   return (
-    <section id="stateUSA" className=" bg-sliderBG alignSlider bg-auto bg-no-repeat bg-right px-2 pb-20">
+    <section id="stateUSA" className=" bg-sliderBG alignSlider bg-auto bg-no-repeat bg-right px-2 pb-8">
       <div className="space-y-4 relative">
         <SectionTitle title={"State of USA"} />
         <button className="flex justify-center items-center bg-primaryBlue gap-10 text-white px-6 rounded-full">
@@ -30,9 +30,9 @@ const Reports = () => {
           <SwiperSlide className="res-slide" />
           <SwiperSlide className="res-slide" />
           <SwiperSlide className="res-slide" />
-          <div className="mt-4 flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-0">
+          <div className="mt-4 flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-0 pb-12">
             <SwiperNavButtons />
-            <button className="rounded-full p-3 sm:p-4 text-white me-3 bg-primaryBlue">
+            <button className="rounded-full p-3 sm:p-4 text-white me-3 lg:me-32 bg-primaryBlue button-shadow">
               <p className="font-Messina">Download the 2023 Report</p>
             </button>
           </div>
